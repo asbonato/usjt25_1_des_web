@@ -1,0 +1,37 @@
+/* qualquer elemento com id=titulo */
+#titulo {
+    color: green;
+    text-align: center;
+}
+/* somente elementos do tipo p que tenham id igual a descricao */
+p#descricao {
+    color: blue;
+}
+/* somente elementos do tipo p que tenham classe igual a promocao */
+p.promocao {
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.nova {
+    color: white;
+}
+/* todo p que tenha a classe final-pagina e cujo id seja rodape */
+p.final-pagina#rodape{
+    background-color: lightgray;
+    text-align: center;
+}
+
+/* todo curso tem essa cor de fundo */
+.curso, .novo-curso {
+    background-color: aliceblue;
+}
+/* novo curso deve ter a cor da fonte vermelha */
+.novo-curso {
+    color: red;
+}
+
+.curso, .novo-curso, #contato {
+    padding: 12px;
+    border: 1px solid lightgray;
+}
